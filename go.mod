@@ -7,5 +7,5 @@ require (
 	github.com/otiai10/gosseract v2.2.1+incompatible
 	github.com/otiai10/marmoset v0.4.0
 	github.com/otiai10/mint v1.2.1
-	golang.org/x/net v0.0.0-20190125091013-d26f9f9a57f3
+	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553
 )
