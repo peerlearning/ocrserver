@@ -6,8 +6,8 @@ Make sure you have `tesseract-ocr` (`brew install tesseract`) installed before c
 
 ```sh
 % go get github.com/otiai10/ocrserver/...
-% PORT=8080 ocrserver
-# open http://localhost:8080
+% PORT=8080 ./ocrserver
+# open http:/./localhost:8080
 ```
 
 Dependencies are a bit painful to figure out...
