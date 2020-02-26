@@ -1,3 +1,17 @@
+# Building
+
+## Manual Setup
+
+If you have tesseract-ocr (`brew install tesseract`)  and library files on your machine
+
+```sh
+% go get github.com/otiai10/ocrserver/...
+% PORT=8080 ocrserver
+# open http://localhost:8080
+```
+
+## ORIGINAL DOCS BELOW
+
 # ocrserver
 
 [![Build Status](https://travis-ci.org/otiai10/ocrserver.svg?branch=master)](https://travis-ci.org/otiai10/ocrserver)
@@ -49,15 +63,7 @@ cf. [docker](https://www.docker.com/products/docker-toolbox)
 
 cf. [docker-compose](https://www.docker.com/products/docker-toolbox)
 
-## Manual Setup
 
-If you have tesseract-ocr  and library files on your machine
-
-```sh
-% go get github.com/otiai10/ocrserver/...
-% PORT=8080 ocrserver
-# open http://localhost:8080
-```
 
 cf. [gosseract](https://github.com/otiai10/gosseract)
 
